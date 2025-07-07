@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>net9.0;net8.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>11.0</LangVersion>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+		<Authors>IceCoffee</Authors>
+		<Company>LuoShuiTianYi</Company>
+		<Copyright>Copyright (c) 2025 IceCoffee</Copyright>
+		<Description>A lightweight, zero-dependency Mediator pattern implementation for .NET, inspired by MediatR and mitt.js.</Description>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageProjectUrl>https://github.com/1249993110/IceCoffee.Mediator</PackageProjectUrl>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<RepositoryUrl>https://github.com/1249993110/IceCoffee.Mediator</RepositoryUrl>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.6" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\..\LICENSE" Pack="true" PackagePath="" Visible="false" />
+		<None Include="..\..\README.md" Pack="true" PackagePath="" Visible="true" />
+	</ItemGroup>
+</Project>
